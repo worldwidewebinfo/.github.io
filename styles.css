@@ -1,0 +1,584 @@
+#TopNavBar{
+
+    list-style-type: none;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.NavItem:hover{
+
+    background-color: darkorange;
+    border-radius: 10px;
+    border-color: rgb(236, 106, 0);
+    border-width: 2px;
+    border-style: solid;
+
+    transition: ease-in 200ms;
+
+}
+
+nav{
+
+    background-color: rgb(24, 24, 24);
+    background-image: linear-gradient(to bottom, rgb(32, 32, 32), rgba(19, 19, 19, 0));
+    box-shadow: 0 8px 10px 0 darkorange;
+    width: 100%;
+    margin-bottom: -17px;
+
+}
+
+.NavItem{
+
+    display: inline;
+    color: white;
+    text-decoration: none;
+    font-family: ubuntu, sans-serif;
+    padding: 5px 10px;
+    margin: 0px 70px;
+    border-radius: 10px;
+
+}
+
+#OrangeText{
+
+    color: darkorange;
+
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+    font-family: 'Ubuntu';
+}
+
+.backroundimg{
+
+    width: 100%;
+
+}
+
+@keyframes Appear {
+    0% {
+      opacity: 0%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+
+
+
+
+h1{
+
+    font-family: Ubuntu, sans-serif;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    text-shadow: 3px 10px 3px black;
+    animation: 3s ease-out 0s 1 Appear;
+
+}
+
+.introparagraph{
+
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 650px;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    text-shadow: 1px 2px 3px black;
+    font-family: Ubuntu, sans-serif;
+    animation: 3s ease-out 0s 1 Appear;
+    
+}
+
+.backroundimg{
+
+    position: relative;
+
+}
+
+.backroundimgdiv{
+    
+    width: 100%;
+    
+}
+
+.grid-container{
+
+    display: grid;
+    position: relative;
+    top: -5px;
+    background-color: rgb(29, 29, 29);
+    
+}
+
+.White-Heading{
+
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    text-shadow: 1px 1px 3px black;
+
+}
+
+.White-Info{
+
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    text-shadow: 1px 1px 3px black;
+    
+}
+
+.Grid-Item{
+
+    background-color: rgb(44, 44, 44);
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px 0 rgb(255, 255, 255);
+    
+
+}
+
+.Grid-Item:hover{
+
+    box-shadow: 1px 3px 2px 0 darkorange;
+
+}
+
+.HTTP-Reference:hover{
+
+    color: darkorange;
+    text-decoration: underline;
+
+}
+
+#column{
+    display: grid;
+    grid-template-columns: 4fr;
+    background-color: rgb(44, 44, 44);
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 15px;
+    height: auto;
+    width: 98%;
+    margin: 50px auto;
+}
+
+#column:hover{
+
+    box-shadow: 1px 3px 2px 0 darkorange;
+
+}
+
+#column #heading{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-family: Ubuntu, sans-serif;
+    position: relative;
+    top: 20px;
+    text-shadow: 3px 10px 3px black;
+}
+
+#difference-www{
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: Ubuntu, sans-serif;
+    padding: 10px 30px;
+}
+
+#wwwvsi_head{
+    text-align: center;
+    margin: 3em;
+    color: whitesmoke;
+}
+#wwwvsi_head h2{
+    margin: 1em;
+}
+#wwwvsi_head p{
+    text-align: center;
+    font-size: 16px;
+    margin: 0 7em;
+}
+hr{
+    width: 50%;
+    height: 2px;
+    background-color: rgb(255, 123, 0);
+    border: none;
+}
+
+.www_vs_internet{
+    color: whitesmoke;
+    height: 750px;
+}
+
+.two_row_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.5fr 1.5fr;
+    grid-gap: 0 10px;
+    margin: 0 5em;
+    height: 69px;
+    width: 50em;
+    margin-left: 15em;
+    background-color: rgb(29, 29, 29);
+}
+
+.www_header{
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(44, 44, 44);
+    height: 69px;
+}
+
+.www_header:hover{
+    border: 1px solid darkorange;
+}
+
+
+
+.internet:hover{
+    border: 1px solid darkorange;
+}
+
+.internet_header{
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    height: 69px;
+    border: 1px solid black;
+}
+
+.internet_header:hover{
+    border: 1px solid darkorange;
+}
+
+.www{
+    border: 1px solid black;
+    background-color: #232323;
+}
+
+.internet{
+    border: 1px solid black;
+    background-color: #232323;
+}
+
+.www:hover{
+    border: 1px solid darkorange;
+}
+
+li{
+    text-decoration: none;
+    text-align: left;
+    list-style: none;
+    margin: 2em;
+}
+
+.evolution_head{
+    margin: auto;
+    height: 2em;
+}
+
+.evolution_head h2{
+     color: white;
+     text-align: center;
+}
+
+.three-row-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: max-content;
+    grid-gap: 1em;
+    padding: 2em 2em;
+    margin: 0 8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: whitesmoke;
+}
+
+.three-row-grid p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.three-row-grid h3{
+    text-align:center;
+}
+
+.three-row-grid article{
+    margin-left: 1em;
+}
+
+.three-row-grid #arpanet{
+    background-image: url(resources/Img_1969.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+    background-position-y: 0.5em;
+}
+
+.three-row-grid #tcp{
+    background-image: url(resources/Img_1973.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+    background-position-y: 0.5em;
+}
+
+.three-row-grid #three-com{
+    background-image: url(resources/Img_1981.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+    background-position-y: 0.5em;
+}
+
+.three-row-grid #phonenet{
+    background-image: url(resources/Img_1982.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+    background-position-y: 0.5em;
+}
+
+.three-row-grid #domain_name{
+    background-image: url(resources/Img_1985.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+    background-position-y: 0.5em;
+}
+
+.three-row-grid #g-to-g{
+    background-image: url(resources/Img_1987.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+    background-position-y: 0.5em;
+}
+
+.three-row-grid #html{
+    background-image: url(resources/Img_1990.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+    background-position-y: 0.5em;
+
+}
+
+.three-row-grid #internet-fnc{
+    background-image: url(resources/Img_1995.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+    background-position-y: 0.5em;
+}
+
+.three-row-grid #windows{
+    background-image: url(resources/Img_‘94-’95.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+    background-position-y: 0.5em;
+}
+
+h3:hover{
+    color: darkorange;
+}
+
+legend{
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    font-size: 30px;
+    padding-left: 12px;
+    margin-top: 20px;
+    text-decoration-color: darkorange;
+}
+
+.Grid-Item2{
+
+    background-color: rgb(44, 44, 44);
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px 0 rgb(255, 255, 255);
+    width: 280px;
+
+}
+
+.Grid-Item2:hover{
+
+    box-shadow: 10px 10px 0px 0 white;
+
+}
+
+.Grid-Container2{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content: space-evenly;
+    column-gap: 10px;
+    
+}
+
+#Client-server-side-heading{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    font-family: Ubuntu, sans-serif
+}
+
+#line-color{
+    background-color: darkorange;
+    height: 5px;
+    margin-top: 40px;
+    top: 70%;
+}
+
+#heading{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    position: relative;
+    top: 30%;
+    font-family: Ubuntu, sans-serif
+}
+
+#CSSEbackground{
+    background-color: rgb(29, 29, 29);
+    position: relative;
+    padding-top: 50px;
+    top: -10px;
+    padding-bottom: 50px;
+
+}
+
+#explenation{
+    background-color: rgb(44, 44, 44);
+    border-right: 3px solid rgb(212, 210, 210);
+    border-bottom: 3px solid rgb(212, 210, 210);
+    border-radius: 20px;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    padding-top: 60px ;
+    margin-top: 40px;
+    margin-bottom: 0%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#subheading{
+
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-family: Ubuntu, sans-serif
+}
+
+#content{
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: Ubuntu, sans-serif
+}
+
+#subheading1{
+    text-align: center;
+    color: white;
+    font-size:25px;
+    top: 218px;
+    font-family: Ubuntu, sans-serif
+
+}
+
+#content{
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: Ubuntu, sans-serif
+}
+
+#Client-server-side-heading{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    font-family: Ubuntu, sans-serif
+}
+
+#Client-server-side-explenation{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    font-family: Ubuntu, sans-serif 
+}
+
+#difference-www{
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: Ubuntu, sans-serif;
+    padding: 10px 30px;
+}
+
+.White-HeadingFooter{
+
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+footer{
+
+    background-color: rgb(19, 19, 19);
+    padding: 20px;
+    position: relative;
+    width: 97.5%;
+    top: -10px;
+    
+
+}
+
+fieldset{
+
+    margin: 0% 40%;
+    padding: 20px;
+}
+
+#lblEmail{
+
+    font-family: Ubuntu, sans-serif;
+    color: white;
+
+}
+
+#inpEmail{
+
+    border-radius: 10px;
+}
+
+#btnSubmit{
+
+    margin-left:90px ;
+    margin-top: 30px;
+    color: white;
+    background-color: darkorange;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: darkorange;
+
+}
+
