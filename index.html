@@ -34,11 +34,11 @@
 
 <body>
     
-    <div class="backroundimgdiv">
+    <div class="backroundimgdiv"id="Home">
 
         
         <img class="backroundimg" src="resources/africa-fibre-2156-1120.jpg" alt="">
-        <h1 id="Home">The World Wide Web</h1>
+        <h1 >The World Wide Web</h1>
         <p class="introparagraph">Welcome to the intro of the <span id="OrangeText">World Wide Web</span>. On this web page we will give you a brief history on the www aswell as cover when and by whom the www was created and basic principles regarding how it works in todays world.</p>
 
     </div>
@@ -46,15 +46,44 @@
 
     <div class="grid-container">
 
-        <div class="Grid-Item">
+        <div class="Grid-Item" id="Info">
             
             
             <h3 class="White-Heading">What is the world wide web?</h3>
-            <p class="White-Info" id="Info">The world wide web is a network which contains a range of information working in tandem with hypertext to give people easy and powerful access to a global information system.  Hypertext is a document that contains addresses/links to other parts of the document or a totally new document, this gives users easy access to information. The www ( world wide web ) is not the same as the Internet but rather a portion of it, thus we can say the www runs/operates within the Internet. When searching for information we use a URL or Uniform Resource Locator. The URL contains three elements that help it find information. One of the protocols used called HTTP is for web pages (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP" target="_blank"><span class="HTTP-Reference">click here to learn more</span></a> ) then we need the IP address or Domain Name of the server that holds the information and then to make searching for information even easier the Pathname for the file is optional. These three elements work in tandem to locate and request data for the user.</p>
+            <p class="White-Info" >The world wide web is a network which contains a range of information working in tandem with hypertext to give people easy and powerful access to a global information system.  Hypertext is a document that contains addresses/links to other parts of the document or a totally new document, this gives users easy access to information. The www ( world wide web ) is not the same as the Internet but rather a portion of it, thus we can say the www runs/operates within the Internet. When searching for information we use a URL or Uniform Resource Locator. The URL contains three elements that help it find information. One of the protocols used called HTTP is for web pages (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP" target="_blank"><span class="HTTP-Reference">click here to learn more</span></a> ) then we need the IP address or Domain Name of the server that holds the information and then to make searching for information even easier the Pathname for the file is optional. These three elements work in tandem to locate and request data for the user.</p>
 
         </div>
 
     </div>
+
+    <h1 class="hih">The History Of The Internet</h1>
+
+        <p class="arph">
+            <img src="./resources/arpa.png" alt="arpanet" class="top-image-left">
+            The Internet began in the 1960s as a way for government researchers to share information. ARPANET (Advanced Research Projects Agency Network), 
+            the network that evolved into what is now known as the Internet. ARPANET was a big success, but membership was limited to certain academic and 
+            research organizations. The date which is considered to mark the official beginning of the Internet is January 1, 1983. Prior to this, the different computer 
+            networks did not have a typical way of communicating with each other. A communications protocol was then established and called the 
+            Transfer Control Protocol/Internet Protocol. This enabled different kinds of computers on different networks to interact. To make the network global, 
+            an advanced and standard protocol was needed, so an IP (Internet Protocol) technology was developed which outlined how electronic messages were packaged, 
+            addressed, and sent over the network. TCP/IP allowed users to link several branches of other networks directly to the ARPANET, which soon came to be called 
+            the Internet.
+        </p>  
+        <hr>   
+        <p class="arph">   
+            <img src="./resources/arpa.gif" alt="arpa" class="top-image-right">
+            During the initial stages of the Internet, it required a lot of hardware to work properly. A user would gain a connection to the Internet by connecting a 
+            modem to a 
+            serial port on their computer and access the computer service remotely via a phone line. To access the Internet, users had to know the telephone number of 
+            the connected computer. From this computer, the user could then establish connections to other computers. This computer was called a server and provided 
+            basic or specific services for users.
+            A search engine software was needed to retrieve information and content from the Internet. The early days of searching started with Gopher but became 
+            overwhelmed by the emergence of browser-based search engines. Other web-based systems evolved such as Lycos, Yahoo and WebCrawler and then toward the late 
+            1990’s came Google with its speed and simplicity offering the best way for users to get information on the Internet. The term “google” now became synonymous 
+            with searching on the Internet and is also the most well-known search engine.
+
+        </p>
+        <hr>
 
         <div id="column">
             <article>
@@ -348,9 +377,47 @@
                 </div>
             </div>
 
+            <div class="waadiv">
+
+                    <h1 class="waa">Web App Architecture</h1>
+            <p class="extrainfo">
+                Web application architecture is a pattern of interaction between the web application components. The two structural web app components that are applied to any web app are the client and server sides. The planning of this interaction determines the resilience, performance, and security of a web application. 
+                The various components of applications include:
+                User Interface
+                Servers
+                Browser
+            </p>
+
+            <h2 class="twaa">~ Types of Web Application Architecture ~</h2>
+        
+                <h3 id="sub-heading2">-  HTML web app</h3>   
+                <p class="arph">
+                    <img src="./resources/web-application-architecture-html.png" alt="web application" class="bott-image-left" style="height: 300px;">
+                     According to the very basic web app architecture, a server consisting of web page construction logic and business logic interacts with 
+                    a client by sending out a complete HTML page. To see an update, the user needs to fully reload the page or to have the client send a 
+                    request for an HTML page to the server and load its entire code once again.
+
+                    This architecture type is highly secure, since all the logics and data are stored on the server, and the user doesn’t have any access 
+                    to it. However, due to constant content reload and heavy data exchange, it is more common for static websites that are steadily dying 
+                    out and making way to more agile and interactive web app types.
+                </p>
+
+                <h3 id="sub-heading">-	Widget web app</h3>    
+                <p class="arph1">
+                    <img src="./resources/web-application-architecture-widgetpng.png" alt="web architecture" class="bott-image-right">
+                    The web page construction logic is replaced by web services and each page on the client has separate entities called widgets. 
+                    By sending AJAX queries to web services, widgets can receive portions of data in HTML or JSON and display them without reloading the 
+                    entire page. With real-time widget updates, this type is more dynamic and mobile-friendly.
+
+                    This apps’ diminished security as the app logic partially shifted to the exposed client side. This web application architecture also 
+                    requires long development time.
+                </p>
+
+            </div>
+
 </body>
 
-<footer>
+<footer class="footermain">
 
     <h2 class="White-HeadingFooter">Want more information?</h2>
     <h3 class="White-HeadingFooter">Enter you details in the form below and we will send you a email.</h3>
@@ -364,6 +431,9 @@
            
         </fieldset>    
     </form>
+
+    <p class="footer1" id="About">created by</p>
+        <p class="footer">Dylan Du Pisanie &nbsp &nbsp : &nbsp &nbsp Nethshedzo Mmbengwa &nbsp &nbsp : &nbsp &nbsp Karel Nel &nbsp &nbsp : &nbsp &nbsp Thato Mabaso</p>
 
 </footer>
 </html>

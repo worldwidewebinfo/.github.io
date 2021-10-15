@@ -234,7 +234,7 @@ hr{
     margin: 0 5em;
     height: 69px;
     width: 50em;
-    margin-left: 15em;
+    margin-left: 23.5%;
     background-color: rgb(29, 29, 29);
 }
 
@@ -388,7 +388,7 @@ li{
 }
 
 .three-row-grid #windows{
-    background-image: url(resources/Img_‘94-’95.png);
+    background-image: url(resources/Img_94_95.png);
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: center;
@@ -579,6 +579,137 @@ fieldset{
     border-radius: 10px;
     padding: 5px;
     border-color: darkorange;
+
+}
+.footer{
+
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.footer1{
+
+    color: rgb(114, 114, 114);
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.hih{
+
+    text-align: center;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 100px;
+
+}
+
+.top-image-left{
+    float: left; 
+    border-radius: 10px;     
+    margin-right: 1em;  
+    padding-left: 1em; 
+    margin-bottom: 30px;   
+}
+.top-image-right{
+    height: 300px;
+    width: 50%;
+    float: right; 
+    border-radius: 10px;     
+    margin-left: 1em;   
+    padding-right: 1em; 
+    margin-bottom: 40px;
+
+}
+
+.arph{
+
+    color: white;
+    font-family: 'ubuntu', sans-serif;
+    border-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+
+
+}
+
+.arph1{
+
+    color: white;
+    font-family: 'ubuntu', sans-serif;
+    border-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
+
+
+}
+
+#sub-heading{
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 260px;
+    text-align: center;
+    color: white;
+}
+
+#sub-heading2{
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.bott-image-left{
+    height: 400px;
+    width: 50%;
+    float: left; 
+    border-radius: 10px;     
+    margin-right: 1em;  
+    padding-left: 1em; 
+}
+.bott-image-right{
+    height: 400px;
+    width: 60%;
+    float: right; 
+    border-radius: 10px;     
+    margin-left: 1em;   
+    padding-right: 1em;  
+}
+
+.waa{
+
+    position: relative;
+    text-align: center;
+
+}
+
+.twaa{
+
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.footermain{
+
+    margin-top: 320px;
+
+}
+
+.extrainfo{
+
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
 
 }
 
