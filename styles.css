@@ -6,7 +6,7 @@
     text-align: center;
 }
 
-a{
+li a{
 
     color: white;
     text-decoration: none;
@@ -440,19 +440,18 @@ legend{
     font-family: Ubuntu, sans-serif
 }
 
-#line-color{
+.line-color{
     background-color: darkorange;
     height: 5px;
     margin-top: 40px;
     top: 70%;
 }
 
-#heading{
+.heading{
     text-align: center;
     color: white;
     font-size: xx-large;
     position: relative;
-    top: 30%;
     font-family: Ubuntu, sans-serif
 }
 
@@ -480,7 +479,7 @@ legend{
     padding-right: 15px;
 }
 
-#subheading{
+.subheading{
 
     text-align: center;
     color: white;
@@ -488,14 +487,14 @@ legend{
     font-family: Ubuntu, sans-serif
 }
 
-#content{
+.content{
     text-align: center;
     color: white;
     font-size: large;
     font-family: Ubuntu, sans-serif
 }
 
-#subheading1{
+.subheading1{
     text-align: center;
     color: white;
     font-size:25px;
@@ -504,7 +503,7 @@ legend{
 
 }
 
-#content{
+.content{
     text-align: center;
     color: white;
     font-size: large;
